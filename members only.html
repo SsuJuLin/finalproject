@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>beauty</title>
+    <link rel="stylesheet" href="assets\website.css">
+    <link rel="stylesheet" href="assets\front.css" >
+    <link rel="stylesheet" href="assets/index.css" >
+  </head>
+
+  <body>
+    <!-- 以下為header -->
+    <header>
+            <br><a href=frontpage.html><img src="assets/pics/beauty2.png" width="200px"></a>
+            <b1><a href=frontpage.html class="b1">  水水</a></b1>
+            <b2>You are the beauty</b2>
+            <div class="icons">
+                <a href="members.html"><img src="image/head2.jpg" width="30px;"></a>
+                <a href="cart5.html"><img src="image/cart.png" width="30px" ></a>
+            </div>
+            <div class="search">
+              <input class="search-bar" type="text" name="search" id="search" placeholder="輸入名稱">
+              <button class="search-btn">
+                <i class="fas fa-search"><a href="earrings.html"><img src="image/search.png" width="30px"></a></i>
+              </button>
+    </header>
+    
+    <!-- 以下為nav -->
+    <nav>
+      <a href="earrings.html">耳環</a>
+      <a href="necklace.html">項鍊</a>
+      <a href="wristband.html">手環</a>
+      <a href="aboutus.html">關於我們</a>
+    </nav>
+
+    <!-- 以下為粉色分隔線 -->
+    <hr size="1.5px" align="center" width="60%" color="#f086a0">
+
+    <!-- 以下為主要首頁內容 -->
+    <main>
+      <article>
+        <div class="member">
+          <table border="2">
+            <thead >
+              <caption class="member1"><h1 style="font-size: 30px;">會員資料</h1></caption>
+              <tbody>
+                <tr>
+                  <th style="text-align: center;"><h1>頭像</h1><br><img src="image/head2.jpg" width="200px"/><br><a href="frontpage.html">登出</a></th>
+                    <td>
+                      <li>姓名:<input class="input1" type="text" name="name" value="123"/><a href="#my-modal" ><input class="button9"  type="submit" value="更改"/></a></li>
+                      <li>地址:<input class="input1" type="text" name="address" value="桃園市中壢區中北路200號"/><a href="#my-modal1" ><input class="button9"  type="submit" value="更改"/></a></li>
+                      <li>信箱:<input class="input1" type="text" name="email" value="123@gmail.com"/><a href="#my-modal2" ><input class="button9"  type="submit" value="更改"/></a></li>
+                      <li>帳號︰<input class="input1" type="text" name="name" value="123"/><a href="#my-modal3" ><input class="button9"  type="submit" value="更改"/></a></li>
+                      <li>密碼︰<input class="input1" type="text" name="password" value="12345678"/><a href="#my-modal4" ><input class="button9"  type="submit" value="更改"/></a></li>
+                    </td>
+                </tr>
+              </tbody>
+            </thead>
+          </table>
+          <a href="#my-modal5" ><input class="button10"  type="submit" value="購買紀錄"/></a>
+          <a href="frontpage1.html"><input class="button11" type="submit" value="確定"/></a>
+        </div> 
+        <div id="my-modal" class="modalable">
+          <div class="modal-inner">
+            <a class="modal-close" href="#nowhere">&times;</a>
+            <div class="modal-title">更改姓名</div>
+            <div class="modal-body">
+              <li>原姓名:<input class="input1" type="text" name="name"/><br></li>
+              <li>新姓名:<input class="input1" type="text" name="new name"/><br></li>
+              <input class="button2" type="submit" value="確定"/>
+            </div> 
+          </div> 
+        </div>
+        <div id="my-modal1" class="modalable">
+          <div class="modal-inner">
+            <a class="modal-close" href="#nowhere">&times;</a>
+            <div class="modal-title">更改地址</div>
+            <div class="modal-body">
+              <li>原地址:<input class="input1" type="text" name="name"/><br></li>
+              <li>新地址:<input class="input1" type="text" name="new name"/><br></li>
+              <input class="button2" type="submit" value="確定"/>
+            </div> 
+          </div> 
+        </div>  
+        <div id="my-modal2" class="modalable">
+          <div class="modal-inner">
+            <a class="modal-close" href="#nowhere">&times;</a>
+            <div class="modal-title">更改信箱</div>
+            <div class="modal-body">
+              <li>原信箱:<input class="input1" type="text" name="name"/><br></li>
+              <li>新信箱:<input class="input1" type="text" name="new name"/><br></li>
+              <input class="button2" type="submit" value="確定"/>
+            </div> 
+          </div> 
+        </div>  
+        <div id="my-modal3" class="modalable">
+          <div class="modal-inner">
+            <a class="modal-close" href="#nowhere">&times;</a>
+            <div class="modal-title">更改帳號</div>
+            <div class="modal-body">
+              <li>原帳號:<input class="input1" type="text" name="name"/><br></li>
+              <li>新帳號:<input class="input1" type="text" name="new name"/><br></li>
+              <input class="button2" type="submit" value="確定"/>
+            </div> 
+          </div> 
+        </div>  
+        <div id="my-modal4" class="modalable">
+          <div class="modal-inner">
+            <a class="modal-close" href="#nowhere">&times;</a>
+            <div class="modal-title">更改密碼</div>
+            <div class="modal-body">
+              <li>原密碼:<input class="input1" type="text" name="name"/><br></li>
+              <li>新密碼:<input class="input1" type="text" name="new name"/><br></li>
+              <input class="button2" type="submit" value="確定"/>
+            </div> 
+          </div> 
+        </div>  
+        <div id="my-modal5" class="modalable">
+          <div class="modal-inner2">
+            <a class="modal-close" href="#nowhere">&times;</a>
+            <div class="modal-title">消費紀錄</div>
+            <div class="pay-record">
+              <table border="1">
+                <tr>
+                  <th>次數</th>
+                  <th>商品</th>
+                  <th>名稱</th>
+                  <th>數量</th>
+                  <th>價格</th>
+                </tr>
+                <tr>
+                  <th>1</th>
+                  <th><img src="earring/Small square shape pure silver earrings.png"></th>
+                  <th><h1>小方形造型純銀耳環</h1></th>
+                  <th>1</th>
+                  <th>$780</th>
+                </tr>
+              </table>
+            </div> 
+          </div> 
+        </div>  
+      </article>
+    </main>
+
+    <!-- 以下為footer -->
+    <footer>
+      <h5 style="text-align:left">Copyright © 2022 cyimteam26. All rights reserved.</h5><h4>Contact us:</h4>
+      <div class="foot">
+        <a href="https://www.mfwzjsq.com/" target="_blank"><img src="https://www.mfwzjsq.com/hit.php?id=zmrrvpdon&nd=6&style=7" border="0" alt="網頁計數器"></a>
+        <a href="https://www.facebook.com/profile.php?id=100017254873342" target="_blank"><img class="icon" src="image/aa.png"></a>&nbsp&nbsp&nbsp&nbsp
+        <a href="https://www.instagram.com/asen_0910/" target="_blank"><img class="icon" src="image/bb.png"></a>&nbsp&nbsp&nbsp&nbsp
+        <a href="mailto:doristtn@gmail.com?subject=建議" target="_blank"><img class="icon" src="image/cc.png"></a>
+    </div>
+    </footer>
+    
+  </body>
+</html>

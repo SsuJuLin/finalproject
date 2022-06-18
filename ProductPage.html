@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>beauty</title>
+    <link rel="stylesheet" href="assets\website.css">
+    <link rel="stylesheet" href="assets\front.css" >
+    <link rel="stylesheet" href="assets/index.css" >
+    <link rel="stylesheet" href="assets/productpage.css" >
+    
+  </head>
+
+  <body>
+    <!-- 以下為header -->
+    <header>
+        <br><a href=frontpage.html><img src="assets/pics/beauty2.png" width="200px"></a>
+        <b1><a href=frontpage.html class="b1">  水水</a></b1>
+        <b2>You are the beauty</b2>
+        <div class="icons">
+            
+            <a href="members.html"><img src="image/profile.png" width="30px"></a>
+            <a href="cart.html"><img src="image/cart.png" width="30px"></a>
+        </div>
+        <div class="search">
+          <input class="search-bar" type="text" name="search" id="search" placeholder="輸入名稱">
+          <button class="search-btn">
+            <i class="fas fa-search"><a href="earrings.html"><img src="image/search.png" width="30px"></a></i>
+          </button>
+        </div>
+    </header>
+    
+    <!-- 以下為nav -->
+    <nav>
+      <a href="earrings.html">耳環</a>
+      <a href="necklace.html">項鍊</a>
+      <a href="wristband.html">手環</a>
+      <a href="hot.html">熱門商品</a>
+      <a href="aboutus.html">關於我們</a>
+    </nav>
+
+    <!-- 以下為粉色分隔線 -->
+    <hr size="1.5px" align="center" width="60%" color="#f086a0">
+
+    <!-- 以下為主要首頁內容 -->
+    <div class="mainshopping">
+
+        <div style="float: left; width: 50%;height: 600px;">
+
+            <div class="box">
+                <div class="small">
+                    <img id="productview"
+                        src="earring/Small square shape pure silver earrings.png"
+                        alt="" />
+                    <div class="mask"></div>
+                </div>
+                </div>
+            </div>
+
+            
+            
+        </div>
+        <div style="height: 600px;">
+            <div class="Product-title">
+                <p>小方形造型純銀耳環</p>
+            </div>
+            <div class="stars">
+                <input type="radio" id="five" name="rate" value="5">
+                <label for="five"></label>
+                <input type="radio" id="four" name="rate" value="4">
+                <label for="four"></label>
+                <input type="radio" id="three" name="rate" value="3">
+                <label for="three"></label>
+                <input type="radio" id="two" name="rate" value="2">
+                <label for="two"></label>
+                <input type="radio" id="one" name="rate" value="1">
+                <label for="one"></label>
+            </div>
+            <div class="Product-info">
+                <p>貼耳款式，個性時尚。</p>
+            </div><input class="number" type="number" min="1" value="1"/>
+            <p class="amount">尚餘99組</p>
+            <div class="Product-price">
+                <p>$780</p>
+            </div>
+            
+            <a href="cart2.html" ><button class="addtocart" >加入購物車</a></button>
+        </div>
+        <h4 class="p1">商品評價:</h4>
+        
+        <div class="rating">
+            <input type="radio" id="star5" name="rating" value="5" hidden/>
+            <label for="star5"></label>
+            <input type="radio" id="star4" name="rating" value="4" hidden/>
+            <label for="star4"></label>
+            <input type="radio" id="star3" name="rating" value="3" hidden/>
+            <label for="star3"></label>
+            <input type="radio" id="star2" name="rating" value="2" hidden/>
+            <label for="star2"></label>
+            <input type="radio" id="star1" name="rating" value="1" hidden/>
+            <label for="star1"></label>
+        </div>
+        <div class="message">
+            <div class="send">
+                <from id="commentForm" method="GET" href="members.html">
+                    <span class="message1">
+                        <img src="image/head.jpg" alt="avatar" style="width: 50px;">
+                    </span>
+                    <textarea class="message-send" name="message" from="messageFrom" cols="80" rows="5" placeholder="歡迎留下意見吧!"></textarea>
+                    <a href="members.html"><input class="message-send-button" type="submit" value="傳送"></a>
+                </from>
+            </div>
+        </div>
+        <h2 class="messagetitle">留言評價</h2>
+        <div class="message2">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="message2Person">
+                                <img src="image/head2.jpg" style="width: 50px;">
+                                <p>
+                                    <b>張仲廷</d>
+                                </p>
+                                <div class="stars1">
+                                    <input type="radio" id="five1" name="rate" value="5">
+                                    <label for="five"></label>
+                                    <input type="radio" id="four1" name="rate" value="4">
+                                    <label for="four"></label>
+                                    <input type="radio" id="three1" name="rate" value="3">
+                                    <label for="three"></label>
+                                    <input type="radio" id="two1" name="rate" value="2">
+                                    <label for="two"></label>
+                                    <input type="radio" id="one1" name="rate" value="1">
+                                    <label for="one"></label>
+                                </div>                                
+                            </div>
+                            <div class="message2text">
+                                <p>耳環好看又漂亮</p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="message2Person">
+                                <img src="image/head3.jpg" style="width: 50px;">
+                                <p>
+                                    <b>林小姐</d>
+                                </p>
+                                <div class="stars1">
+                                    <input type="radio" id="five1" name="rate" value="5">
+                                    <label for="five"></label>
+                                    <input type="radio" id="four1" name="rate" value="4">
+                                    <label for="four"></label>
+                                    <input type="radio" id="three1" name="rate" value="3">
+                                    <label for="three"></label>
+                                    <input type="radio" id="two1" name="rate" value="2">
+                                    <label for="two"></label>
+                                    <input type="radio" id="one1" name="rate" value="1">
+                                    <label for="one"></label>
+                                </div>                                
+                            </div>
+                            <div class="message2text">
+                                <p>耳環很漂亮我想買</p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="message2Person">
+                                <img src="image/head4.jpg" style="width: 50px;">
+                                <p>
+                                    <b>王大明</d>
+                                </p>
+                                <div class="stars1">
+                                    <input type="radio" id="five1" name="rate" value="5">
+                                    <label for="five"></label>
+                                    <input type="radio" id="four1" name="rate" value="4">
+                                    <label for="four"></label>
+                                    <input type="radio" id="three1" name="rate" value="3">
+                                    <label for="three"></label>
+                                    <input type="radio" id="two1" name="rate" value="2">
+                                    <label for="two"></label>
+                                    <input type="radio" id="one1" name="rate" value="1">
+                                    <label for="one"></label>
+                                </div>                                
+                            </div>
+                            <div class="message2text">
+                                <p>耳環好便宜</p>
+                            </div>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+
+    <!-- 以下為footer -->
+    <footer>
+      <h5 style="text-align:left">Copyright © 2022 cyimteam26. All rights reserved.</h5><h4>Contact us:</h4>
+      <div class="foot">
+        <a href="https://www.mfwzjsq.com/" target="_blank"><img src="https://www.mfwzjsq.com/hit.php?id=zmrrvpdon&nd=6&style=7" border="0" alt="網頁計數器"></a>
+        <a href="https://www.facebook.com/profile.php?id=100017254873342" target="_blank"><img class="icon" src="image/aa.png"></a>&nbsp&nbsp&nbsp&nbsp
+        <a href="https://www.instagram.com/asen_0910/" target="_blank"><img class="icon" src="image/bb.png"></a>&nbsp&nbsp&nbsp&nbsp
+        <a href="mailto:doristtn@gmail.com?subject=建議" target="_blank"><img class="icon" src="image/cc.png"></a>
+    </div>
+    </footer>
+    
+  </body>
+</html>
