@@ -1,0 +1,97 @@
+
+
+body{
+    background-color: white;
+    margin: 0px;
+}
+
+/*header title*/
+header{
+    background-color: #f086a0;
+    color: white;
+    padding: 20px;
+    text-align:left;
+    margin: 0px;
+}
+b1 {
+    font-size: 40px;
+    font-family: 'PMingLiU';
+}
+a.b1 {
+    color: inherit;
+    /*移除超連結顏色*/
+    text-decoration: none;
+    /* 移除超連結底線 */
+}
+
+/*nav*/
+nav{
+    background-color: white;
+    text-align: center;
+    font-family: Arial;
+}
+nav a{
+    padding: 14px 16px;
+    display: inline-block;
+    color: inherit;
+    /*移除超連結顏色*/
+    text-decoration: none;
+    /* 移除超連結底線 */
+}
+nav a:hover{
+    background-color:#f086a0;
+    /* 滑鼠移到字上變粉色 */
+    color: white;
+}
+.icons {
+    position: relative;
+    top: 50px;
+    float: right;
+    margin-right: 50px;
+
+}
+.icons>a {
+    padding: 10px;
+}
+
+/*其實我不知道做個main幹嘛 */
+main{
+    padding: 20px;
+}
+main::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/*footer */
+footer{
+    background-color: #f086a0;
+    color: white;
+    padding: 10px;
+    text-align:center;
+    position: relative;
+}
+.foot{
+    position:relative;
+    top:-20px;
+    left:40px;
+}
+.icon{
+    width: 37px;
+    height: 37px;
+    margin-top: 40px;
+}
+.icon:hover{
+    animation: myfirst 0.5s infinite;
+}
+
+
+.card1{
+    padding: 20px;
+    background-color: rgb(236, 212, 212);
+    margin: 10px;
+}
+
+

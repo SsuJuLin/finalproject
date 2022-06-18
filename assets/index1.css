@@ -1,0 +1,12 @@
+.content {
+    
+    width: 40%;
+    height: 200px;
+    background: #f4f4f4;
+    position: absolute;
+    top: 500px;
+    left: 1300px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    animation: anime 1s;
+    }
